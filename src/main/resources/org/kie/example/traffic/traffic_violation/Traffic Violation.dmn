@@ -93,7 +93,7 @@
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_9FA708ED-A277-4B27-A0A5-E02DFB38BB47" name="Amount" typeRef="number"/>
-      <dmn:output id="_9A15D63B-F97D-4DD2-928A-E30B88CBD922" name="Points " typeRef="number"/>
+      <dmn:output id="_9A15D63B-F97D-4DD2-928A-E30B88CBD922" name="Points" typeRef="number"/>
       <dmn:rule id="_341A7F5F-3703-4EB6-B062-28BAED02805C">
         <dmn:inputEntry id="_59B324B0-2BA3-4AED-8072-4C235214A5DC">
           <dmn:text>"speed"</dmn:text>
