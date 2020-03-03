@@ -2,7 +2,9 @@
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_B0A9D923-5C59-4A1D-A93D-09772D8CD110" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_EEFBE0F6-8F38-43BD-98F3-A0CE291EA970" name="Traffic Violation" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_B0A9D923-5C59-4A1D-A93D-09772D8CD110">
   <dmn:extensionElements/>
   <dmn:itemDefinition id="_254335A3-37FD-466A-962D-B9CBECE11281" name="tDriver" isCollection="false">
-    <dmn:itemComponent id="_48291EC9-289F-4C7E-8BC2-0AA0616A99D7" name="Name" isCollection="false"/>
+    <dmn:itemComponent id="_48291EC9-289F-4C7E-8BC2-0AA0616A99D7" name="Name" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
     <dmn:itemComponent id="_FED97229-C9F9-4040-A954-A74F2650415E" name="Age " isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
@@ -40,7 +42,9 @@
     <dmn:itemComponent id="_430388D1-0AB1-4601-9926-0F6C5D396C61" name="Amount" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_3F6AD41C-D314-4FF6-856E-00752AFB03E4" name="Points " isCollection="false"/>
+    <dmn:itemComponent id="_3F6AD41C-D314-4FF6-856E-00752AFB03E4" name="Points " isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:decision id="_526A1B4F-005D-489F-8FDE-6D79A6FA00EE" name=" Should the driver be suspended?">
     <dmn:extensionElements/>
