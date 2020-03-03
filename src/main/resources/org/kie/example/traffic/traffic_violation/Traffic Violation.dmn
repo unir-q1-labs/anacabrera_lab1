@@ -47,10 +47,10 @@
     <dmn:question>Should the driver be suspended due to points on his driver license?</dmn:question>
     <dmn:allowedAnswers>Yes,No</dmn:allowedAnswers>
     <dmn:variable id="_D9CFAA8B-D21D-4889-A840-71E8F654256C" name=" Should the driver be suspended?" typeRef="string"/>
-    <dmn:informationRequirement id="_76B1F928-82EE-40D7-B69E-F0BCE29B6764">
+    <dmn:informationRequirement id="_0C37D1F9-A655-4E4F-90A1-82E9A4A90D5E">
       <dmn:requiredInput href="#_511094EB-18F9-4FA0-9F46-461C3DBA4D72"/>
     </dmn:informationRequirement>
-    <dmn:informationRequirement id="_4886D670-EE55-43BB-A681-1379ABFA7154">
+    <dmn:informationRequirement id="_A4A366DD-022D-4AB1-A6D8-FDD587261D2C">
       <dmn:requiredDecision href="#_2CD4BFE7-A481-4C3D-9AEF-69CE0CB7848F"/>
     </dmn:informationRequirement>
     <dmn:context id="_A92A9123-F414-4CE4-B7B2-339DAF998185">
@@ -73,8 +73,8 @@
   </dmn:inputData>
   <dmn:decision id="_2CD4BFE7-A481-4C3D-9AEF-69CE0CB7848F" name="Fine">
     <dmn:extensionElements/>
-    <dmn:variable id="_5D0809F1-9687-467C-80EE-AD8203B9D387" name="Fine" typeRef="tFine"/>
-    <dmn:informationRequirement id="_841658A1-1B0A-4E58-B9C6-0F8BB4D96050">
+    <dmn:variable id="_5D0809F1-9687-467C-80EE-AD8203B9D387" name="Fine"/>
+    <dmn:informationRequirement id="_D115779C-C4AF-47B6-AAF5-05340759AC62">
       <dmn:requiredInput href="#_5C07EFA6-A002-4DB7-BE0A-400A7C610AD3"/>
     </dmn:informationRequirement>
     <dmn:decisionTable id="_60811FBD-5A6B-4585-BAB9-FEDD6499CFF9" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
@@ -213,15 +213,15 @@
         <dc:Bounds x="652" y="398" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge id="dmnedge-_76B1F928-82EE-40D7-B69E-F0BCE29B6764" dmnElementRef="_76B1F928-82EE-40D7-B69E-F0BCE29B6764">
+      <dmndi:DMNEdge id="dmnedge-_0C37D1F9-A655-4E4F-90A1-82E9A4A90D5E" dmnElementRef="_0C37D1F9-A655-4E4F-90A1-82E9A4A90D5E">
         <di:waypoint x="332" y="398"/>
         <di:waypoint x="512" y="115"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_4886D670-EE55-43BB-A681-1379ABFA7154" dmnElementRef="_4886D670-EE55-43BB-A681-1379ABFA7154">
+      <dmndi:DMNEdge id="dmnedge-_A4A366DD-022D-4AB1-A6D8-FDD587261D2C" dmnElementRef="_A4A366DD-022D-4AB1-A6D8-FDD587261D2C">
         <di:waypoint x="703" y="217"/>
         <di:waypoint x="512" y="115"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_841658A1-1B0A-4E58-B9C6-0F8BB4D96050" dmnElementRef="_841658A1-1B0A-4E58-B9C6-0F8BB4D96050">
+      <dmndi:DMNEdge id="dmnedge-_D115779C-C4AF-47B6-AAF5-05340759AC62" dmnElementRef="_D115779C-C4AF-47B6-AAF5-05340759AC62">
         <di:waypoint x="702" y="398"/>
         <di:waypoint x="703" y="267"/>
       </dmndi:DMNEdge>
