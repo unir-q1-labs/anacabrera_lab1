@@ -27,9 +27,6 @@
     </dmn:itemComponent>
     <dmn:itemComponent id="_E330AC47-9650-4FED-BDF6-2A001113FB20" name="Type" isCollection="false">
       <dmn:typeRef>string</dmn:typeRef>
-      <dmn:allowedValues kie:constraintType="enumeration" id="_F63CC89E-655E-42EC-8AC5-A39F9BD8246B">
-        <dmn:text>"speed", "parking", "driving under the influence"</dmn:text>
-      </dmn:allowedValues>
     </dmn:itemComponent>
     <dmn:itemComponent id="_A8ACC015-3FB7-41F6-8C86-F06F3E855245" name="Speed Limit" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
