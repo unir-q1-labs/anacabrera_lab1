@@ -36,10 +36,10 @@
     </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_EC0FD440-C01F-4A93-9009-1259C9DC9AC1" name="tFine" isCollection="false">
-    <dmn:itemComponent id="_430388D1-0AB1-4601-9926-0F6C5D396C61" name="Amount" isCollection="false">
+    <dmn:itemComponent id="_3F6AD41C-D314-4FF6-856E-00752AFB03E4" name="Points " isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_3F6AD41C-D314-4FF6-856E-00752AFB03E4" name="Points " isCollection="false">
+    <dmn:itemComponent id="_430388D1-0AB1-4601-9926-0F6C5D396C61" name="Amount" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
