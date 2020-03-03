@@ -73,7 +73,7 @@
   </dmn:decision>
   <dmn:inputData id="_511094EB-18F9-4FA0-9F46-461C3DBA4D72" name="Driver">
     <dmn:extensionElements/>
-    <dmn:variable id="_ACF26778-E638-46CE-84BB-CA8481C375E7" name="Driver"/>
+    <dmn:variable id="_ACF26778-E638-46CE-84BB-CA8481C375E7" name="Driver" typeRef="tDriver"/>
   </dmn:inputData>
   <dmn:decision id="_2CD4BFE7-A481-4C3D-9AEF-69CE0CB7848F" name="Fine">
     <dmn:extensionElements/>
